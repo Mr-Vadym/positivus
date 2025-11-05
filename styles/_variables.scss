@@ -25,4 +25,11 @@
   --bitton-height: 68px;
 
   --transition-duration: 0.2s;
+
+  @include desktop {
+    --section-paddong-y: 50xp;
+  }
+  @include mobile {
+    --section-paddong-y: 30xp;
+  }
 }
